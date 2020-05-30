@@ -1,6 +1,3 @@
 {
-"postUpgradeTasks": {
-    "commands": ["sed -i 's#http://proxy.infra.mycompany.local:8000/registry.npmjs.org#https://registry.npmjs.org#ig' package-lock.json"],
-    "fileFilters": ["package-lock.json"]
-  }
+  "postUpdateOptions": ["npmDedupe"]
 }
