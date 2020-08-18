@@ -1,3 +1,4 @@
 {
+  "baseBranches": ["master", "next"],
   "postUpdateOptions": ["npmDedupe"]
 }
